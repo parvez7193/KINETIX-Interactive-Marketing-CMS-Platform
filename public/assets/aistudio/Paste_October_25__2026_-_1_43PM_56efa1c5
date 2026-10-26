@@ -1,0 +1,1073 @@
+Build a Premium Interactive Marketing Website with a Complete CMS
+
+1. ROLE AND OBJECTIVE
+
+Act as a world-class creative director, senior UI/UX designer, motion designer, full-stack developer, CMS architect, SEO specialist, and conversion rate optimization expert.
+
+Your task is to design and develop a complete, premium, fully responsive, interactive marketing website with a functional content management system (CMS).
+
+This must be a complete multi-page website, not just a landing page, static design prototype, or collection of disconnected screens.
+
+The final website should combine:
+
+Premium visual design and strong brand storytelling.
+
+Interactive animations and smooth transitions.
+
+Intuitive navigation and excellent user experience.
+
+Reusable page templates and components.
+
+A functional CMS for managing website content.
+
+Real forms, search, filters, navigation, and interactive elements.
+
+SEO, accessibility, responsiveness, and performance optimization.
+
+The result should look like an award-winning digital agency created it and be engineered like a production-ready web product.
+
+2. PROJECT CONFIGURATION
+
+Use the following project details as the starting configuration:
+
+Brand name: [YOUR BRAND NAME]
+
+Industry: [YOUR INDUSTRY]
+
+Website purpose: [MARKETING / SAAS / DIGITAL AGENCY / STARTUP / E-COMMERCE / OTHER]
+
+Target audience: [YOUR TARGET AUDIENCE]
+
+Primary conversion goal: [BOOK A DEMO / GET A QUOTE / START FREE TRIAL / CONTACT SALES]
+
+Brand personality: Modern, innovative, premium, trustworthy, creative.
+
+Visual direction: Editorial layouts, bold typography, sophisticated whitespace, expressive imagery, and refined motion design.
+
+Color palette: Create a cohesive brand palette based on the project identity.
+
+Typography: Choose a distinctive, readable font system with a clear hierarchy.
+
+Technology: Use the existing project stack where practical. For a new project, select a modern, maintainable frontend, backend, and CMS architecture.
+
+CMS: Prefer a real, editable CMS with persistent storage, authenticated administration, media management, and dynamic page content.
+
+If project information or assets already exist, inspect and reuse them instead of inventing conflicting brand guidelines.
+
+3. DESIGN DIRECTION
+
+Create an immersive, sophisticated marketing experience with a strong visual identity.
+
+Use:
+
+Oversized editorial typography.
+
+Thoughtful asymmetrical layouts and grid systems.
+
+Carefully composed imagery, product mockups, illustrations, and video where relevant.
+
+Layered depth, subtle gradients, soft shadows, and restrained glass effects where appropriate.
+
+Interactive cards, tabs, accordions, navigation, and visual storytelling.
+
+Consistent spacing, borders, radii, icons, and responsive rules.
+
+Clear conversion paths throughout the entire website.
+
+Avoid generic AI-generated layouts, excessive rounded cards, random gradients, unnecessary glassmorphism, excessive animation, and repetitive section designs.
+
+Every page should have its own appropriate visual composition while sharing the same design system.
+
+Create a complete design system containing:
+
+Color tokens and semantic color variants.
+
+Typography scale and text styles.
+
+Spacing and layout tokens.
+
+Buttons, links, inputs, cards, badges, and navigation.
+
+Responsive breakpoints.
+
+Focus, hover, active, disabled, loading, success, and error states.
+
+Motion durations, easing curves, and transition rules.
+
+4. COMPLETE WEBSITE SITEMAP
+
+Build every required page as a separate, navigable route. Do not combine the entire website into a single scrolling page.
+
+A. Core marketing pages
+
+Home — /
+
+About — /about
+
+Services overview — /services
+
+Individual service detail — /services/[slug]
+
+Solutions or industries — /solutions
+
+Individual solution detail — /solutions/[slug]
+
+Portfolio or case studies — /work
+
+Individual case study — /work/[slug]
+
+Pricing — /pricing
+
+Contact — /contact
+
+B. Content marketing pages
+
+Blog overview — /blog
+
+Blog category — /blog/category/[slug]
+
+Individual blog article — /blog/[slug]
+
+Resources or insights — /resources
+
+Individual resource — /resources/[slug]
+
+FAQs — /faq
+
+C. Company and conversion pages
+
+Team — /team
+
+Careers — /careers
+
+Individual job detail — /careers/[slug]
+
+Book a meeting or demo — /book-demo
+
+Testimonials or customer stories — /customers
+
+Newsletter subscription or campaign page — /newsletter
+
+D. Utility and legal pages
+
+Search results — /search
+
+Global search overlay or drawer.
+
+Privacy policy — /privacy-policy
+
+Terms and conditions — /terms
+
+Cookie policy — /cookie-policy
+
+Custom 404 page — not found route.
+
+Adapt the sitemap to the business model. Do not add irrelevant pages merely to satisfy a page count.
+
+Every required page must have meaningful content, a consistent global header and footer, working links, responsive layouts, appropriate metadata, and relevant calls to action.
+
+5. PAGE-BY-PAGE EXPERIENCE
+
+Homepage
+
+Create a high-impact homepage containing:
+
+An animated hero with a clear headline, supporting copy, and primary and secondary CTAs.
+
+Interactive product imagery, illustrative visuals, or a relevant motion-based visual centerpiece.
+
+Brand credibility signals and client logos where applicable.
+
+A compelling introduction to the company's services or product.
+
+Featured services with interactive cards.
+
+Selected case studies or customer stories.
+
+A value proposition section explaining why customers should choose the brand.
+
+A process or methodology section.
+
+Customer testimonials or other substantiated trust signals.
+
+Relevant statistics only when genuine data is supplied.
+
+Featured CMS-driven blog articles or resources.
+
+An FAQ section.
+
+A persuasive final CTA.
+
+A complete footer with navigation, contact information, social links, and newsletter signup.
+
+Create a deliberate narrative from awareness to trust to conversion.
+
+About page
+
+Include the brand story, mission, vision, values, company history, team information, differentiators, and a contact CTA. Use editable CMS content for relevant sections.
+
+Services and solutions
+
+Build a service listing page with reusable service cards, optional categories or filters, and a detail-page template for each service.
+
+Each detail page should support a unique title, description, hero visual, benefits, process, deliverables, FAQs, related services, testimonials, and conversion CTA.
+
+Case studies
+
+Create a portfolio grid with category filtering, optional search, and responsive project cards.
+
+Each case study should support:
+
+Client and project information.
+
+Industry and project category.
+
+Challenge, strategy, solution, and outcome.
+
+Project imagery and galleries.
+
+Process and design decisions.
+
+Relevant results, with verified figures only.
+
+Related projects.
+
+A contextual CTA.
+
+Use a reusable CMS-powered case study template rather than manually building every project page.
+
+Blog and resources
+
+Create a CMS-powered editorial experience with:
+
+Featured articles and latest content.
+
+Categories, tags, search, and pagination.
+
+Reading time and publication date.
+
+Author profiles where relevant.
+
+Responsive article layouts.
+
+Rich text, headings, images, captions, quotes, and embedded media.
+
+Table of contents for longer articles.
+
+Related posts and newsletter CTAs.
+
+Social sharing links where appropriate.
+
+Individual articles must render from CMS data and have unique URLs and metadata.
+
+Pricing
+
+Build a flexible pricing page with configurable pricing tiers, feature comparisons, FAQs, and conversion CTAs.
+
+Support monthly and annual pricing toggles if relevant. Pricing values and plan descriptions must be editable, and all displayed calculations must work correctly.
+
+If pricing depends on sales discussions, use a request-a-quote or book-a-demo experience instead of fabricated prices.
+
+Contact and conversion pages
+
+Include well-designed contact and lead-generation forms, relevant contact details, clear expectations, validation, loading states, success confirmations, and error handling.
+
+Forms must connect to a working submission endpoint or clearly configured integration. Never present a false success message when submission fails.
+
+6. INTERACTIVE ANIMATION SYSTEM
+
+Motion must be a core part of the experience, not a decorative afterthought.
+
+Create a cohesive motion system with the following interactions.
+
+Global animations
+
+Smooth page transitions where supported by the framework.
+
+Refined navigation-menu transitions.
+
+Animated mobile navigation drawers.
+
+Button hover and press feedback.
+
+Smooth scrolling for in-page links.
+
+Subtle cursor interactions only when they add real value.
+
+Consistent entrance and exit transitions.
+
+Motion that adapts to screen size and input method.
+
+Hero animations
+
+Split-text or word-by-word headline reveals.
+
+Masked image reveals.
+
+Animated supporting elements.
+
+Subtle parallax or scroll-linked movement.
+
+Interactive visual elements, product mockups, or demonstrations.
+
+Smooth CTA hover animations.
+
+Keep hero animations fast, legible, and conversion-focused.
+
+Scroll-based animation
+
+Fade and reveal content as it enters the viewport.
+
+Use staggered reveals for related elements.
+
+Introduce restrained parallax for visual depth.
+
+Create sticky storytelling sections when appropriate.
+
+Use scroll progress indicators for long articles where useful.
+
+Animate counters only for verified numerical claims.
+
+Use pinned sections only when they improve the narrative.
+
+Interactive components
+
+Tabbed content panels.
+
+Accordions and expandable FAQ sections.
+
+Filterable portfolio grids.
+
+Search overlays.
+
+Pricing toggles.
+
+Interactive service cards.
+
+Before-and-after comparisons where relevant.
+
+Image galleries and carousels with accessible controls.
+
+Animated dropdown navigation.
+
+Interactive product previews or feature demonstrations.
+
+All interactive elements must work with mouse, keyboard, and touch input as applicable.
+
+Motion engineering rules
+
+Prefer CSS transitions and transforms for straightforward interactions.
+
+Use a suitable animation library such as Motion for React or GSAP when the existing stack and complexity justify it.
+
+Avoid unnecessary animation dependencies.
+
+Animate opacity and transforms where possible rather than repeatedly triggering expensive layout changes.
+
+Respect prefers-reduced-motion.
+
+Avoid hijacking normal scrolling.
+
+Do not block content behind long intro animations.
+
+Avoid excessive bouncing, spinning, flashing, and distracting effects.
+
+Ensure all essential content remains available when animations are disabled.
+
+The finished experience should feel fluid, refined, and purposeful rather than over-animated.
+
+7. FULL CMS ARCHITECTURE
+
+The website must have a real content management system. A static collection of hardcoded pages is not sufficient.
+
+Choose a suitable CMS based on the environment, hosting, and maintenance requirements. Examples include:
+
+Sanity or Contentful for a hosted headless CMS.
+
+Strapi for a self-hosted headless CMS.
+
+WordPress for a traditional or headless CMS.
+
+An existing supported CMS if one is already configured.
+
+A properly implemented database-backed admin system when a custom CMS is necessary.
+
+For an AI coding environment, prefer the most practical supported integration and explain any required external credentials or configuration.
+
+CMS content collections
+
+Create suitable content models for the following:
+
+1. Global settings
+
+Brand name and logo.
+
+Favicon.
+
+Color and theme settings where appropriate.
+
+Contact information.
+
+Social links.
+
+Header and footer navigation.
+
+SEO defaults.
+
+Newsletter and integrations settings.
+
+2. Pages
+
+Page title.
+
+Slug.
+
+SEO title and description.
+
+Open Graph image.
+
+Hero heading and subheading.
+
+Body sections using reusable content blocks.
+
+CTA settings.
+
+Publication and visibility status.
+
+3. Services
+
+Name and slug.
+
+Short and long descriptions.
+
+Hero image or illustration.
+
+Features and benefits.
+
+Process and deliverables.
+
+Related case studies.
+
+FAQs.
+
+SEO metadata.
+
+Display order and publication status.
+
+4. Case studies
+
+Project name and slug.
+
+Client details where approved.
+
+Industry and category.
+
+Summary and project narrative.
+
+Challenge, strategy, solution, and outcome.
+
+Gallery and media assets.
+
+Verified metrics, when supplied.
+
+Related services.
+
+Featured status.
+
+SEO metadata.
+
+5. Blog posts
+
+Title and slug.
+
+Excerpt.
+
+Author.
+
+Featured image and image alt text.
+
+Rich-text body.
+
+Categories and tags.
+
+Publication date.
+
+Draft or published status.
+
+Scheduled publication if supported.
+
+SEO metadata.
+
+Related articles.
+
+6. Team members
+
+Name and slug.
+
+Role.
+
+Biography.
+
+Portrait and alt text.
+
+Social links where appropriate.
+
+Display order and visibility.
+
+7. Testimonials
+
+Approved quote.
+
+Customer name.
+
+Job title and organization, if approved.
+
+Avatar or logo where permitted.
+
+Related service or case study.
+
+Featured status.
+
+8. Pricing plans
+
+Plan name.
+
+Price and billing interval.
+
+Features.
+
+CTA label and destination.
+
+Display order.
+
+Availability.
+
+Featured-plan setting.
+
+9. FAQs
+
+Question and answer.
+
+Category.
+
+Related page or service.
+
+Display order.
+
+Publication status.
+
+10. Careers
+
+Job title.
+
+Department.
+
+Location and work arrangement.
+
+Employment type.
+
+Job description and qualifications.
+
+Application destination.
+
+Closing date and status.
+
+11. Resources
+
+Title, slug, description, category, cover image, resource type, downloadable file or destination URL, and SEO data.
+
+12. Navigation and footer
+
+Editable menus.
+
+Nested menu items.
+
+Labels and destinations.
+
+Footer groups.
+
+Legal links and social links.
+
+Use appropriate relationships between collections and prevent published pages from displaying missing or unpublished related content.
+
+CMS administration dashboard
+
+Build or configure an authenticated administration experience where authorized users can:
+
+Create, edit, duplicate, preview, publish, unpublish, and delete content.
+
+Manage page content and reusable sections.
+
+Upload, replace, and organize images and documents.
+
+Edit navigation and footer links.
+
+Manage blog posts, categories, and tags.
+
+Manage service listings, case studies, team members, testimonials, and FAQs.
+
+Edit SEO metadata.
+
+Save drafts and preview changes before publishing.
+
+See helpful validation errors.
+
+Filter and search content records.
+
+Manage access using appropriate roles and permissions where supported.
+
+The editor experience should be straightforward for a non-technical marketing team.
+
+When using an external CMS, use its genuine administration dashboard and editorial workflow rather than creating an unnecessary duplicate admin panel.
+
+CMS implementation requirements
+
+Use persistent data storage.
+
+Create content schemas with appropriate validation.
+
+Seed representative sample content for development.
+
+Keep content separate from presentation code.
+
+Use reusable dynamic page templates.
+
+Implement appropriate loading, empty, error, and not-found states.
+
+Validate routes and handle missing slugs gracefully.
+
+Use a content preview workflow where supported.
+
+Configure published-content retrieval correctly.
+
+Protect credentials and administrative endpoints.
+
+Never expose private API keys or service-role secrets in browser code.
+
+Do not claim that content editing or publishing works unless the required data operations have actually been implemented and tested.
+
+8. GLOBAL COMPONENTS AND REUSABLE DESIGN SYSTEM
+
+Create a consistent, reusable component library, including:
+
+Desktop header.
+
+Mobile header and navigation drawer.
+
+Dropdown and mega-menu patterns when needed.
+
+Footer.
+
+Breadcrumbs.
+
+Hero variations.
+
+CTA sections.
+
+Service cards.
+
+Case study cards.
+
+Blog cards.
+
+Testimonial components.
+
+Team cards.
+
+FAQ accordions.
+
+Forms and form-field components.
+
+Search dialog and search results.
+
+Pagination.
+
+Filter controls.
+
+Loading skeletons.
+
+Empty states.
+
+Error states.
+
+Cookie consent controls when appropriate.
+
+Reusable SEO and metadata utilities.
+
+Use shared components and design tokens. Avoid copying large amounts of duplicated code across pages.
+
+Allow individual page templates to use different layouts without breaking global consistency.
+
+9. RESPONSIVE DESIGN
+
+Build and test the website across:
+
+Small mobile screens.
+
+Standard mobile screens.
+
+Tablets.
+
+Laptops.
+
+Large desktop monitors.
+
+Requirements:
+
+Mobile-first responsive behavior.
+
+Fluid typography where appropriate.
+
+Responsive images and video.
+
+No unintended horizontal overflow.
+
+Touch-friendly interactive elements.
+
+Collapsible navigation for mobile.
+
+Reflowing grids and flexible content layouts.
+
+Reduced or adapted motion on smaller or lower-powered devices.
+
+Readable line lengths and adequate whitespace.
+
+Forms that remain usable on mobile.
+
+Consistent visual hierarchy across breakpoints.
+
+Do not simply shrink the desktop design. Reconsider composition, content order, navigation, and animation for each viewport.
+
+10. SEO AND CONTENT DISCOVERABILITY
+
+Implement technical SEO across the entire site.
+
+Include:
+
+Unique page titles and meta descriptions.
+
+Canonical URLs where appropriate.
+
+Open Graph and social sharing metadata.
+
+XML sitemap.
+
+Robots.txt.
+
+Correct heading hierarchy.
+
+Semantic HTML.
+
+Descriptive, accessible image alt text.
+
+Internal links between related content.
+
+Breadcrumbs on appropriate pages.
+
+Clean, readable URL slugs.
+
+Structured data only where relevant and supported by actual content.
+
+Correct indexation controls for drafts, private content, and utility pages.
+
+Proper redirects when URLs change, where supported.
+
+Useful 404 handling.
+
+For dynamic CMS pages, generate metadata from the relevant published content rather than applying identical metadata to every route.
+
+11. ACCESSIBILITY
+
+Follow WCAG 2.2 AA as the design and implementation target.
+
+Include:
+
+Semantic landmarks and accessible markup.
+
+Keyboard-accessible navigation and controls.
+
+Visible focus states.
+
+Correct labeling and instructions for forms.
+
+Accessible validation and error messages.
+
+Sufficient color contrast.
+
+Appropriate text alternatives for meaningful images.
+
+Correct dialog focus management.
+
+Accessible accordion and tab behavior.
+
+Reduced-motion support.
+
+No reliance on color or animation alone to communicate essential information.
+
+Use ARIA only where needed and implement correct keyboard behavior for custom interactive controls.
+
+12. PERFORMANCE AND TECHNICAL QUALITY
+
+Optimize for a fast, stable user experience.
+
+Requirements:
+
+Use optimized and appropriately sized images.
+
+Lazy-load below-the-fold media where suitable.
+
+Avoid lazy-loading the primary above-the-fold image when it would delay rendering.
+
+Reserve image and media dimensions to reduce layout shifts.
+
+Keep JavaScript bundles and third-party dependencies under control.
+
+Minimize unnecessary client-side rendering.
+
+Cache content safely where appropriate.
+
+Use appropriate server-side rendering or static generation when supported.
+
+Revalidate or refresh CMS-driven content after publication as necessary.
+
+Avoid duplicate network requests.
+
+Use robust form validation and secure server-side checks.
+
+Handle CMS connection failures gracefully.
+
+Avoid console errors, broken assets, missing routes, and dead links.
+
+Target strong Core Web Vitals and an excellent Lighthouse experience without sacrificing essential functionality.
+
+13. FORMS AND INTEGRATIONS
+
+Implement real, usable integrations where required by the project.
+
+Possible integrations:
+
+Contact and lead-generation forms.
+
+Newsletter subscription.
+
+Booking calendar.
+
+CRM.
+
+Analytics.
+
+Consent management.
+
+Marketing automation.
+
+Email delivery.
+
+Search indexing.
+
+File downloads.
+
+For each integration:
+
+Use an appropriate, documented provider or endpoint.
+
+Validate inputs on the client and server where applicable.
+
+Keep credentials in secure server-side configuration.
+
+Provide loading, success, and failure states.
+
+Prevent accidental duplicate submissions when appropriate.
+
+Add appropriate spam protection to public forms.
+
+Document environment variables and setup steps.
+
+Clearly identify any integration that still requires credentials or external configuration.
+
+Never fabricate a successful integration, analytics result, contact submission, or external service connection.
+
+14. DEVELOPMENT WORKFLOW
+
+Follow this order of execution.
+
+Phase 1 — Discovery
+
+Inspect the existing repository, dependencies, assets, routes, and backend.
+
+Identify the current framework and hosting constraints.
+
+Review supplied brand material and content.
+
+Determine the best CMS integration.
+
+Establish the sitemap, content schemas, design system, and implementation plan.
+
+Phase 2 — Foundation
+
+Set up global styles and design tokens.
+
+Build the responsive layout and navigation.
+
+Configure routing and reusable components.
+
+Connect the CMS and data layer.
+
+Set up content schemas, authentication, and permissions as needed.
+
+Phase 3 — Complete pages
+
+Implement every required page and detail-page template.
+
+Populate the CMS with realistic, editable sample content.
+
+Connect each page to the correct content source.
+
+Build the mobile layouts and global footer.
+
+Implement real interactions and functional forms.
+
+Phase 4 — Animation
+
+Add the reusable motion system.
+
+Implement scroll reveals, hover states, transitions, and interactive sections.
+
+Add reduced-motion handling.
+
+Test keyboard and touch behavior.
+
+Phase 5 — CMS validation
+
+Create and edit content through the CMS.
+
+Verify that published changes appear on the website.
+
+Test draft and published visibility.
+
+Test media uploads and content relationships.
+
+Test missing slugs and empty collections.
+
+Verify permissions and server-side data protection.
+
+Phase 6 — Quality assurance
+
+Test every route.
+
+Test all navigation, buttons, links, forms, filters, and toggles.
+
+Test representative mobile, tablet, and desktop sizes.
+
+Test loading, empty, error, and success states.
+
+Check accessibility, SEO, performance, and console errors.
+
+Fix issues before declaring the site complete.
+
+Phase 7 — Handover
+
+Document the route structure.
+
+Explain how to access the CMS.
+
+Explain how to edit and publish content.
+
+Provide environment-variable instructions.
+
+Document build, deployment, and integration requirements.
+
+Identify any functionality that remains unconfigured or unverified.
+
+15. NON-NEGOTIABLE RULES
+
+Build the complete multi-page website, not just the homepage.
+
+Implement every route in the approved sitemap.
+
+Do not use placeholder links or dead-end buttons.
+
+Do not hardcode CMS-managed content into page templates.
+
+Do not create a fake CMS that cannot persist changes.
+
+Do not fabricate client logos, testimonials, business statistics, or success metrics.
+
+Do not invent API credentials or imply that an external service is connected when it is not.
+
+Do not sacrifice mobile usability for desktop animations.
+
+Do not add motion that distracts from reading or conversion.
+
+Do not rewrite or destroy working parts of an existing project unnecessarily.
+
+Do not stop after generating mockups or a visual prototype.
+
+Do not mark unfinished pages, forms, or integrations as complete.
+
+Reuse components and templates wherever sensible.
+
+Make implementation decisions independently where requirements are sufficiently clear.
+
+Fix errors discovered during testing rather than merely listing them in the final report.
+
+16. ACCEPTANCE CRITERIA
+
+The project is complete only when:
+
+Every required page has a working route.
+
+The header, navigation, footer, and internal links work.
+
+CMS-driven pages render the correct dynamic content.
+
+An authorized content editor can make and publish supported changes.
+
+Content persists through the configured CMS or database.
+
+Blog, service, case study, and other required detail pages use reusable templates.
+
+Interactive elements have functioning behavior.
+
+Forms have real submission handling or are clearly marked as awaiting integration configuration.
+
+Animations work without preventing normal access to the content.
+
+Responsive layouts have been tested at representative viewport sizes.
+
+Accessibility and reduced-motion behaviors have been checked.
+
+Technical SEO and metadata are implemented.
+
+No known critical routing, content, security, or runtime errors remain.
+
+Deployment and CMS setup instructions are documented.
+
+17. FINAL DELIVERY
+
+Deliver the complete implementation, including:
+
+Full source code.
+
+A complete multi-page website.
+
+Reusable design system and UI components.
+
+Interactive animation system.
+
+CMS schemas and configuration.
+
+Database and backend integration where required.
+
+Realistic sample content.
+
+Secure administration and content editing.
+
+SEO and accessibility implementation.
+
+Testing results.
+
+Deployment and maintenance documentation.
+
+Start by inspecting the project environment and establishing the implementation plan. Then build the actual website in the working project, validate each major feature, and continue through the full acceptance checklist.
+
+Final objective: Create a cohesive, premium, conversion-focused marketing website that combines the creativity of an award-winning interactive agency with the maintainability of a professional CMS-driven web platform. The website must be fully multi-page, content-editable, responsive, accessible, and functional—not merely visually impressive.

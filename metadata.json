@@ -1,0 +1,6 @@
+{
+  "name": "KINETIX — Interactive Marketing & CMS Platform",
+  "description": "Premium interactive marketing agency website with complete CMS, dynamic content collections, case studies, services, pricing, and live editorial management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
