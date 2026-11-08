@@ -111,7 +111,7 @@ function AnimatedRoutes() {
 export default function App() {
   return (
     <CmsProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <PageLoadingBar />
         <ScrollToTop />
         <div className="flex flex-col min-h-screen bg-neutral-950 text-neutral-100 selection:bg-amber-500/20 selection:text-amber-200">
