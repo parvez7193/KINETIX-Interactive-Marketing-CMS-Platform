@@ -2,11 +2,28 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Shield } from 'lucide-react';
 
+const readCookieConsent = (): string | null => {
+  try {
+    return typeof window !== 'undefined' ? window.localStorage.getItem('kinetix_cookie_consent') : null;
+  } catch (error) {
+    console.warn('Cookie preference storage is unavailable.', error);
+    return null;
+  }
+};
+
+const saveCookieConsent = (value: string): void => {
+  try {
+    if (typeof window !== 'undefined') window.localStorage.setItem('kinetix_cookie_consent', value);
+  } catch (error) {
+    console.warn('Cookie preference could not be saved.', error);
+  }
+};
+
 export const CookieBanner: React.FC = () => {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const consent = localStorage.getItem('kinetix_cookie_consent');
+    const consent = readCookieConsent();
     if (!consent) {
       const timer = setTimeout(() => setVisible(true), 1200);
       return () => clearTimeout(timer);
@@ -14,12 +31,12 @@ export const CookieBanner: React.FC = () => {
   }, []);
 
   const handleAccept = () => {
-    localStorage.setItem('kinetix_cookie_consent', 'accepted');
+    saveCookieConsent('accepted');
     setVisible(false);
   };
 
   const handleDecline = () => {
-    localStorage.setItem('kinetix_cookie_consent', 'essential_only');
+    saveCookieConsent('essential_only');
     setVisible(false);
   };
 

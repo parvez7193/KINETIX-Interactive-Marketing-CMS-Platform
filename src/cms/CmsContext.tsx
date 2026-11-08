@@ -31,6 +31,32 @@ import {
 const STORAGE_KEY = 'kinetix_cms_storage_v2';
 const AUTH_KEY = 'kinetix_cms_auth_v2';
 
+const safeStorageGet = (key: string): string | null => {
+  try {
+    return typeof window !== 'undefined' ? window.localStorage.getItem(key) : null;
+  } catch (error) {
+    console.warn('Browser storage is unavailable; using default CMS data.', error);
+    return null;
+  }
+};
+
+const safeStorageSet = (key: string, value: string): void => {
+  try {
+    if (typeof window !== 'undefined') window.localStorage.setItem(key, value);
+  } catch (error) {
+    console.warn('Browser storage is unavailable; changes will not persist on this device.', error);
+  }
+};
+
+const safeStorageRemove = (key: string): void => {
+  try {
+    if (typeof window !== 'undefined') window.localStorage.removeItem(key);
+  } catch (error) {
+    console.warn('Browser storage is unavailable; stored data could not be cleared.', error);
+  }
+};
+
+
 interface CmsContextType {
   settings: SiteSettings;
   services: ServiceItem[];
@@ -135,7 +161,7 @@ export const CmsProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
   const [submissions, setSubmissions] = useState<LeadSubmission[]>(INITIAL_SUBMISSIONS);
 
   const [isAdminLoggedIn, setIsAdminLoggedIn] = useState<boolean>(() => {
-    return localStorage.getItem(AUTH_KEY) === 'true';
+    return safeStorageGet(AUTH_KEY) === 'true';
   });
 
   const [toastMessage, setToastMessage] = useState<string | null>(null);
@@ -150,7 +176,7 @@ export const CmsProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
   // Load from LocalStorage on mount
   useEffect(() => {
     try {
-      const raw = localStorage.getItem(STORAGE_KEY);
+      const raw = safeStorageGet(STORAGE_KEY);
       if (raw) {
         const parsed = JSON.parse(raw);
         if (parsed.settings) setSettings(parsed.settings);
@@ -188,7 +214,7 @@ export const CmsProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
       submissions,
     };
     try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+      safeStorageSet(STORAGE_KEY, JSON.stringify(payload));
     } catch (e) {
       console.error('Failed to save to localStorage', e);
     }
@@ -412,7 +438,7 @@ export const CmsProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     // Allows 'admin2026' or 'kinetix2026' or instant login
     if (password === 'admin2026' || password === 'kinetix2026' || password === 'admin') {
       setIsAdminLoggedIn(true);
-      localStorage.setItem(AUTH_KEY, 'true');
+      safeStorageSet(AUTH_KEY, 'true');
       showToast('Authenticated as CMS Administrator');
       return true;
     }
@@ -421,7 +447,7 @@ export const CmsProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
 
   const logoutAdmin = () => {
     setIsAdminLoggedIn(false);
-    localStorage.removeItem(AUTH_KEY);
+    safeStorageRemove(AUTH_KEY);
     showToast('Logged out of CMS');
   };
 
@@ -439,7 +465,7 @@ export const CmsProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     setFaqs(INITIAL_FAQS);
     setCareers(INITIAL_CAREERS);
     setSubmissions(INITIAL_SUBMISSIONS);
-    localStorage.removeItem(STORAGE_KEY);
+    safeStorageRemove(STORAGE_KEY);
     showToast('CMS database restored to factory demo state');
   };
 

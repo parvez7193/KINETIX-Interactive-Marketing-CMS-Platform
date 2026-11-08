@@ -14,6 +14,7 @@ import {
 import { useCms } from '../cms/CmsContext';
 import { SeoHead } from '../components/common/SeoHead';
 import { ScrollReveal, AnimatedCard } from '../components/common/MotionComponents';
+import heroMarketingStudioImage from '../assets/images/hero_marketing_studio_1792914299810.jpg';
 
 export const HomePage: React.FC = () => {
   const { settings, services, caseStudies, blogPosts, testimonials, faqs } = useCms();
@@ -96,7 +97,7 @@ export const HomePage: React.FC = () => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden border border-neutral-800 bg-neutral-900 shadow-2xl group aspect-[16/11]">
               <img
-                src="/src/assets/images/hero_marketing_studio_1792914299810.jpg"
+                src={heroMarketingStudioImage}
                 alt="KINETIX Studio Architecture in Zurich"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
