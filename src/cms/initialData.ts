@@ -1,3 +1,9 @@
+import heroMarketingStudioImage from '../assets/images/hero_marketing_studio_1792914299810.jpg';
+import caseStudyArcMobilityImage from '../assets/images/case_study_arc_mobility_1792914299720.jpg';
+import caseStudyZenithFintechImage from '../assets/images/case_study_zenith_fintech_1792914300754.jpg';
+import caseStudyLuminaAiImage from '../assets/images/case_study_lumina_ai_1792914299591.jpg';
+import caseStudyKansoAudioImage from '../assets/images/case_study_kanso_audio_1792914301454.jpg';
+
 import {
   SiteSettings,
   ServiceItem,
@@ -37,7 +43,7 @@ export const INITIAL_SETTINGS: SiteSettings = {
     defaultTitle: 'KINETIX — Interactive Marketing & Growth Studio',
     defaultDescription:
       'Premier interactive marketing website and headless CMS platform engineered for high-growth tech ventures, luxury brands, and category leaders.',
-    ogImageUrl: '/src/assets/images/hero_marketing_studio_1792914299810.jpg',
+    ogImageUrl: heroMarketingStudioImage,
   },
 };
 
@@ -51,7 +57,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'We craft iconic, unified brand systems, editorial visual languages, and positioning narratives that command premium category authority.',
     fullDescription:
       'A great brand is not merely a logo; it is an unmistakable visual grammar that differentiates category leaders from commoditized peers. We architect comprehensive brand books, bespoke typography pairings, motion identities, and high-impact art direction that resonate with sophisticated enterprise buyers and luxury consumers alike.',
-    heroImage: '/src/assets/images/hero_marketing_studio_1792914299810.jpg',
+    heroImage: heroMarketingStudioImage,
     iconName: 'Sparkles',
     features: [
       'Comprehensive Brand Foundations & Narrative Architecture',
@@ -86,7 +92,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Engineering award-winning, responsive web platforms with fluid micro-interactions, editorial grids, and lightning-fast Core Web Vitals.',
     fullDescription:
       'Your digital flagship should captivate attention within milliseconds. We develop high-performance web applications using modern React, Tailwind CSS, hardware-accelerated animations, and headless CMS integrations that transform passive visitors into passionate brand advocates.',
-    heroImage: '/src/assets/images/case_study_arc_mobility_1792914299720.jpg',
+    heroImage: caseStudyArcMobilityImage,
     iconName: 'Layout',
     features: [
       'Sub-50ms Interaction Latency & Compositor Motion',
@@ -121,7 +127,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Data-driven paid media, search strategy, and multi-channel acquisition campaigns engineered to generate qualified enterprise pipeline.',
     fullDescription:
       'Stop burning marketing budgets on empty impressions. We build full-funnel acquisition systems targeting decision-makers across Search, LinkedIn, Meta, and programmatic exchanges, tightly coupled with landing page experimentation to maximize pipeline velocity.',
-    heroImage: '/src/assets/images/case_study_zenith_fintech_1792914300754.jpg',
+    heroImage: caseStudyZenithFintechImage,
     iconName: 'TrendingUp',
     features: [
       'High-Intent Google Search & Programmatic ABM',
@@ -156,7 +162,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Systematic heuristic audits, qualitative user tracking, and controlled A/B testing frameworks that turn existing traffic into revenue.',
     fullDescription:
       'Doubling your conversion rate yields double the pipeline without spending an extra dollar on ads. We apply rigorous behavioral psychology, heatmap friction analysis, and statistically sound experimentation to eliminate drop-off points across your lead generation funnels.',
-    heroImage: '/src/assets/images/case_study_lumina_ai_1792914299591.jpg',
+    heroImage: caseStudyLuminaAiImage,
     iconName: 'Target',
     features: [
       'Heuristic Usability & Cognitive Friction Audits',
@@ -191,7 +197,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Modern content management systems engineered for speed, editorial autonomy, and strict enterprise governance.',
     fullDescription:
       'Empower marketing teams to launch campaign pages in minutes while developers maintain bulletproof code hygiene. We architect composable headless CMS platforms with rich block editors, preview workflows, role-based permissions, and instant revalidation.',
-    heroImage: '/src/assets/images/case_study_kanso_audio_1792914301454.jpg',
+    heroImage: caseStudyKansoAudioImage,
     iconName: 'Database',
     features: [
       'Visual Block Editors & Reusable Modular Content',
@@ -226,7 +232,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Seamless synchronization between web capture, CRM routing, automated qualification sequences, and sales team notification loops.',
     fullDescription:
       'Speed to lead determines conversion rates. We engineer automated workflows that instantly enrich inbound leads, route prospects to the right account executive based on firmographic criteria, and trigger personalized follow-ups that keep momentum alive.',
-    heroImage: '/src/assets/images/case_study_zenith_fintech_1792914300754.jpg',
+    heroImage: caseStudyZenithFintechImage,
     iconName: 'Cpu',
     features: [
       'Instant Lead Routing & Calendar Booking Integration',
@@ -262,7 +268,7 @@ export const INITIAL_SOLUTIONS: SolutionItem[] = [
     industry: 'Enterprise Software & Cloud Platforms',
     summary:
       'Accelerating ACV growth and reducing sales cycles through authoritative positioning, interactive product tours, and high-velocity demo funnels.',
-    heroImage: '/src/assets/images/case_study_zenith_fintech_1792914300754.jpg',
+    heroImage: caseStudyZenithFintechImage,
     painPoints: [
       'Complex technical products explained with generic jargon that confuses executive economic buyers.',
       'Sluggish demo-request forms that lose prospects between initial intent and calendar booking.',
@@ -288,7 +294,7 @@ export const INITIAL_SOLUTIONS: SolutionItem[] = [
     industry: 'Artificial Intelligence, Robotics & Hardware',
     summary:
       'Translating complex computational breakthroughs into undeniable commercial narratives that attract top-tier capital and enterprise pilots.',
-    heroImage: '/src/assets/images/case_study_lumina_ai_1792914299591.jpg',
+    heroImage: caseStudyLuminaAiImage,
     painPoints: [
       'Groundbreaking proprietary technology framed like another commodity wrapper or API tool.',
       'Lack of tangible physical/digital product mockups that demonstrate real enterprise utility.',
@@ -314,7 +320,7 @@ export const INITIAL_SOLUTIONS: SolutionItem[] = [
     industry: 'High-End Audio, Mobility & Modern Luxury',
     summary:
       'Elevating brand prestige and driving high-average-order-value direct transactions through sensory digital storytelling.',
-    heroImage: '/src/assets/images/case_study_kanso_audio_1792914301454.jpg',
+    heroImage: caseStudyKansoAudioImage,
     painPoints: [
       'D2C storefronts that look like cheap dropshipping templates rather than luxury atelier craftsmanship.',
       'Skyrocketing customer acquisition costs on generic paid social channels with zero brand equity.',
@@ -344,10 +350,10 @@ export const INITIAL_CASE_STUDIES: CaseStudyItem[] = [
     industry: 'Spatial Hardware & Artificial Intelligence',
     category: 'Product Launch & Web Experience',
     year: '2026',
-    heroImage: '/src/assets/images/case_study_lumina_ai_1792914299591.jpg',
+    heroImage: caseStudyLuminaAiImage,
     galleryImages: [
-      '/src/assets/images/case_study_lumina_ai_1792914299591.jpg',
-      '/src/assets/images/hero_marketing_studio_1792914299810.jpg',
+      caseStudyLuminaAiImage,
+      heroMarketingStudioImage,
     ],
     summary:
       'How KINETIX orchestrated the global launch of Lumina One, achieving 310% pre-order allocation in 30 days and generating $14.2M in enterprise pipeline.',
@@ -381,10 +387,10 @@ export const INITIAL_CASE_STUDIES: CaseStudyItem[] = [
     industry: 'Electric Vehicles & High-Performance Engineering',
     category: 'Digital Flagship & Brand Architecture',
     year: '2026',
-    heroImage: '/src/assets/images/case_study_arc_mobility_1792914299720.jpg',
+    heroImage: caseStudyArcMobilityImage,
     galleryImages: [
-      '/src/assets/images/case_study_arc_mobility_1792914299720.jpg',
-      '/src/assets/images/hero_marketing_studio_1792914299810.jpg',
+      caseStudyArcMobilityImage,
+      heroMarketingStudioImage,
     ],
     summary:
       'Designing an ultra-modern digital cockpit preview and reservation system that secured 82,000 verified track-day inquiries and international acclaim.',
@@ -418,10 +424,10 @@ export const INITIAL_CASE_STUDIES: CaseStudyItem[] = [
     industry: 'High-End Consumer Electronics & Audio',
     category: 'E-Commerce & CRO Transformation',
     year: '2025',
-    heroImage: '/src/assets/images/case_study_kanso_audio_1792914301454.jpg',
+    heroImage: caseStudyKansoAudioImage,
     galleryImages: [
-      '/src/assets/images/case_study_kanso_audio_1792914301454.jpg',
-      '/src/assets/images/hero_marketing_studio_1792914299810.jpg',
+      caseStudyKansoAudioImage,
+      heroMarketingStudioImage,
     ],
     summary:
       'A comprehensive direct-to-consumer digital transformation yielding +245% revenue growth and a 38% reduction in customer acquisition cost.',
@@ -455,10 +461,10 @@ export const INITIAL_CASE_STUDIES: CaseStudyItem[] = [
     industry: 'Institutional Fintech & Capital Markets',
     category: 'Enterprise Platform & Growth Engine',
     year: '2025',
-    heroImage: '/src/assets/images/case_study_zenith_fintech_1792914300754.jpg',
+    heroImage: caseStudyZenithFintechImage,
     galleryImages: [
-      '/src/assets/images/case_study_zenith_fintech_1792914300754.jpg',
-      '/src/assets/images/hero_marketing_studio_1792914299810.jpg',
+      caseStudyZenithFintechImage,
+      heroMarketingStudioImage,
     ],
     summary:
       'Architecting an authoritative institutional capital platform that facilitated $4.2B in alternative asset onboarding and accelerated LP allocations.',
@@ -519,7 +525,7 @@ By building digital flagships that feel more like architectural broadsheets and 
     tags: ['Brand Identity', 'Editorial Design', 'Conversion'],
     readTime: '6 min read',
     publishedAt: 'Oct 18, 2026',
-    coverImage: '/src/assets/images/hero_marketing_studio_1792914299810.jpg',
+    coverImage: heroMarketingStudioImage,
     featured: true,
     published: true,
   },
@@ -550,7 +556,7 @@ Rather than forcing enterprise buyers to submit a form and wait 24 hours for a s
     tags: ['CRO', 'Experimentation', 'Analytics'],
     readTime: '8 min read',
     publishedAt: 'Oct 12, 2026',
-    coverImage: '/src/assets/images/case_study_lumina_ai_1792914299591.jpg',
+    coverImage: caseStudyLuminaAiImage,
     featured: false,
     published: true,
   },
@@ -577,7 +583,7 @@ Headless CMS architecture bridges this divide when implemented with disciplined 
     tags: ['Headless CMS', 'Architecture', 'TypeScript'],
     readTime: '5 min read',
     publishedAt: 'Sep 29, 2026',
-    coverImage: '/src/assets/images/case_study_zenith_fintech_1792914300754.jpg',
+    coverImage: caseStudyZenithFintechImage,
     featured: false,
     published: true,
   },
@@ -603,7 +609,7 @@ Animate exclusively \`transform\` and \`opacity\`. Never animate geometry proper
     tags: ['Motion', 'UX', 'Performance'],
     readTime: '7 min read',
     publishedAt: 'Sep 15, 2026',
-    coverImage: '/src/assets/images/case_study_arc_mobility_1792914299720.jpg',
+    coverImage: caseStudyArcMobilityImage,
     featured: false,
     published: true,
   },
@@ -619,7 +625,7 @@ export const INITIAL_RESOURCES: ResourceItem[] = [
     description:
       'Granular benchmark data analyzed across 140+ high-growth tech ventures. Contains conversion rates by channel, ACV cohort, and sales cycle duration.',
     pagesOrSize: '42 Pages · Comprehensive Research PDF',
-    coverImage: '/src/assets/images/hero_marketing_studio_1792914299810.jpg',
+    coverImage: heroMarketingStudioImage,
     keyTakeaways: [
       'Median demo-to-close conversion rates broken down by ARR tier ($1M-$10M vs $10M-$50M).',
       'The direct impact of page load latency on enterprise demo hold rates.',
@@ -639,7 +645,7 @@ export const INITIAL_RESOURCES: ResourceItem[] = [
     description:
       'A battle-tested 36-point inspection rubric covering headline math, claim-to-proof adjacency, form micro-commitments, and mobile ergonomics.',
     pagesOrSize: 'Interactive Spreadsheet & PDF Guide',
-    coverImage: '/src/assets/images/case_study_lumina_ai_1792914299591.jpg',
+    coverImage: caseStudyLuminaAiImage,
     keyTakeaways: [
       'Strict top-bar contract requirements to eliminate navigation leakage.',
       'Form field friction audit: identifying high-drop-off request fields.',
@@ -659,7 +665,7 @@ export const INITIAL_RESOURCES: ResourceItem[] = [
     description:
       'Step-by-step technical methodology for migrating legacy monolithic websites to composable headless CMS platforms without losing search rankings.',
     pagesOrSize: '28 Pages · Technical Architecture Guide',
-    coverImage: '/src/assets/images/case_study_zenith_fintech_1792914300754.jpg',
+    coverImage: caseStudyZenithFintechImage,
     keyTakeaways: [
       'Comprehensive 301 redirect mapping and canonical URL integrity safeguards.',
       'Schema markup generation for dynamic CMS collections.',
